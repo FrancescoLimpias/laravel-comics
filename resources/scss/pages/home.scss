@@ -1,0 +1,16 @@
+#HomeMain {
+    position: relative;
+
+    background-color: #1d1d1d;
+    color: white;
+
+    .hover {
+        position: absolute;
+        height: 2.5em;
+        top: -1.5em;
+        left: 10%;
+        padding: .3em .8em;
+
+        background-color: #0282f9;
+    }
+}
