@@ -7,5 +7,5 @@
 @endsection
 
 @section('main')
-    Comic Main
+    Comic Detail
 @endsection
