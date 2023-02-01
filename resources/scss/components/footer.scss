@@ -1,0 +1,55 @@
+@use '../partials/layout';
+
+#AppFooter {
+    background-color: #303030;
+    
+    color: #797979;
+    a {
+        color: #797979;
+    }
+
+    .siteMap {
+        background-image: url('../../images/footer-bg.jpg');
+        background-size: cover;
+        height: 265px;
+
+        display: flex;
+
+        .left {
+
+            width: 50%;
+
+            .maps {
+                width: 100%;
+            
+                display: flex;
+                // justify-content: space-around;
+                gap: 3em;
+                flex-wrap: wrap;
+            }
+
+            h6 {
+                color: white;
+            }
+        }
+
+        .right {
+            height: 100%;
+            width: 50%;
+            background-image: url('../../images/dc-logo-bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+    }
+
+    .credits {
+
+        .right {
+            span {
+                color: #0473ca;
+            }
+        }
+    }
+
+}
