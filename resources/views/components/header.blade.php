@@ -1,7 +1,5 @@
 <header id="AppHeader">
 
-    <link rel="stylesheet" href="{{ Vite::asset('resources/scss/components/header.scss') }}">
-
     {{-- upper nav --}}
     <nav class="webNav paged">
         <ul>

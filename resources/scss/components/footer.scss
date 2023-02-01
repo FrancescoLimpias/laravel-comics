@@ -1,5 +1,3 @@
-@use '../partials/layout';
-
 #AppFooter {
     background-color: #303030;
     
@@ -9,7 +7,7 @@
     }
 
     .siteMap {
-        background-image: url('../../images/footer-bg.jpg');
+        background-image: url('../images/footer-bg.jpg');
         background-size: cover;
         height: 265px;
 
@@ -36,7 +34,7 @@
         .right {
             height: 100%;
             width: 50%;
-            background-image: url('../../images/dc-logo-bg.png');
+            background-image: url('../images/dc-logo-bg.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center;

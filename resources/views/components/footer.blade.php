@@ -1,7 +1,5 @@
 <div id="AppFooter">
 
-    <link rel="stylesheet" href="{{ Vite::asset('resources/scss/components/footer.scss') }}">
-
     {{-- SiteMap --}}
     <div class="siteMap paged">
 
