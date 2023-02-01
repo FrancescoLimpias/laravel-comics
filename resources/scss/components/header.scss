@@ -1,0 +1,49 @@
+@use '../partials/layout';
+
+#AppHeader {
+
+    // general
+    ul {
+        display: flex;
+        gap: 1em;
+    }
+
+    // upper nav
+    .webNav {
+        height: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        a {
+            color: white;
+        }
+    }
+
+    // main nav
+    .siteNav {
+        height: 70px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: white;
+
+        a {
+            color: black;
+            text-transform: uppercase;
+        }
+
+        input::placeholder {
+            text-align: right;
+        }
+    }
+
+    .jumbotron{
+        height: 400px;
+        background-image: url(../../images/jumbotron.jpg);
+        background-size: cover;
+        // background-position: center;
+    }
+}
